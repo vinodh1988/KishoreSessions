@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link href="table.css" rel="stylesheet">
+  </head>
+  <body>
+        <table id="info">
+                <thead>
+                    <th>sno</th>
+                    <th>Name</th>
+                    <th>City</th>
+                </thead>
+                <tbody id="tbody">
+            
+                </tbody>
+        </table> 
+        
+         <div class="form">
+             <form>
+            <table id="form">
+                <tr>
+                     <th>sno</th>
+                     <td><input type="number" name="sno"></td>
+                     <td class="error"></td>
+                </tr>
+                 <tr>
+                     <th>Name</th>
+                     <td><input type="text" name="name"></td>
+                     <td class="error"></td>
+                </tr>
+                 <tr>
+                     <th>city</th>
+                     <td><input type="text" name="city"></td>
+                     <td class="error"></td>
+                </tr>
+                 <tr>
+                    
+                     <td colspan=3 align="center"><input type="button" value="Store"
+                                                         onclick="validateAndStore()"></td>
+                </tr>
+             </table>
+                 </form>
+         </div>
+      <script src="Table.js"></script>
+  </body>
+</html>  

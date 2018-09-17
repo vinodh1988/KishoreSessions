@@ -1,0 +1,63 @@
+#info th,td, #form th,td{
+    height: 30px;
+    padding: 3px;
+    width: 150px;
+    border: 1px solid gray;
+    
+    font-family: Comic sans;
+}
+
+#info table,#form table{
+    border:none;
+}
+
+#info th{
+    background-color: darkred;
+    color: white;
+}
+
+#info td{
+    background-color: lightgoldenrodyellow;
+    color: darkred;
+}
+
+#form{
+    width: 600px;
+    min-height: 100px;
+    background-color: lightseagreen;
+    font-family: comic sans;
+    font-size: 16px
+}
+
+
+#form input[type="text"],input[type="number"]{
+    border: none;
+    border-radius: 5px;
+    width: 220px;
+    height: 30px;
+}
+
+#form input[type="button"]
+{
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+
+#form input[type="submit"]:hover
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+
+.error{
+    color:red;
+    font-family: comic sans;
+}
+
+
